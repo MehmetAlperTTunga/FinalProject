@@ -6,5 +6,6 @@ namespace Core.DataAccess.EntityFramework
 {
     class EfEntityRepositoryBase<TEntity,TContext>
     {
+
     }
 }
