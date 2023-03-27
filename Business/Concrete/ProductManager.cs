@@ -40,7 +40,7 @@ namespace Business.Concrete
         {
             //İş Kodları
 
-            if(DateTime.Now.Hour == 20)
+            if (DateTime.Now.Hour == 10)
             {
                 return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
             }
